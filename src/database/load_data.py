@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 MYSQL_USER = 'root'
-MYSQL_PASSWORD = '@Maha2004'
+MYSQL_PASSWORD = ''
 
 def load_data_manually():
     print("="*80)
