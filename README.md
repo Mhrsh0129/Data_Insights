@@ -26,7 +26,6 @@ The study analyzes approximately 211,214 trades executed by 32 unique traders ac
 
 ```
 ├── data/                      # Input datasets (CSV format)
-├── notebooks/                 # Documentation and exploratory analysis
 ├── src/                       # Source code repository
 │   ├── database/             # Schema setup and data ingestion scripts
 │   ├── visualization/        # Business intelligence and charting modules
