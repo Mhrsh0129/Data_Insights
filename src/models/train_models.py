@@ -255,7 +255,7 @@ class MLEngine:
             print(f"\n{scenario['name']}:")
             print(f"  Probability of Profit: {profit_prob*100:.1f}%")
             print(f"  Predicted PnL: ${predicted_pnl:.2f}")
-            print(f"  Recommendation: {'✅ TRADE' if profit_prob > 0.5 else '❌ AVOID'}")
+            print(f"  Recommendation: {'TRADE' if profit_prob > 0.5 else 'AVOID'}")
     
     def save_model_results(self):
         results = {
