@@ -1,0 +1,143 @@
+{
+  "classification_model": {
+    "accuracy": 0.7592084082946691,
+    "feature_importance": [
+      {
+        "feature": "TradeHour",
+        "importance": 0.22602917834470643
+      },
+      {
+        "feature": "SentimentValue",
+        "importance": 0.21410572057896257
+      },
+      {
+        "feature": "coin_encoded",
+        "importance": 0.16148068354220288
+      },
+      {
+        "feature": "DayOfWeek",
+        "importance": 0.12382665538473421
+      },
+      {
+        "feature": "TradeMonth",
+        "importance": 0.09259120637468665
+      },
+      {
+        "feature": "SizeUSD",
+        "importance": 0.05625098889818662
+      },
+      {
+        "feature": "log_size",
+        "importance": 0.055301005383892016
+      },
+      {
+        "feature": "IsShort",
+        "importance": 0.030774707694268755
+      },
+      {
+        "feature": "IsLong",
+        "importance": 0.026224769242612567
+      },
+      {
+        "feature": "IsSpot",
+        "importance": 0.013415084555747364
+      }
+    ]
+  },
+  "regression_model": {
+    "feature_importance": [
+      {
+        "feature": "log_size",
+        "importance": 0.18805737598610142
+      },
+      {
+        "feature": "SizeUSD",
+        "importance": 0.17960374030892534
+      },
+      {
+        "feature": "coin_encoded",
+        "importance": 0.14800358522599286
+      },
+      {
+        "feature": "SentimentValue",
+        "importance": 0.13362285397925597
+      },
+      {
+        "feature": "TradeHour",
+        "importance": 0.133097850182178
+      },
+      {
+        "feature": "DayOfWeek",
+        "importance": 0.07008294082061577
+      },
+      {
+        "feature": "TradeMonth",
+        "importance": 0.05942446042095551
+      },
+      {
+        "feature": "IsShort",
+        "importance": 0.03804599961974574
+      },
+      {
+        "feature": "IsSpot",
+        "importance": 0.0317902695436519
+      },
+      {
+        "feature": "IsLong",
+        "importance": 0.018270923912577553
+      }
+    ]
+  },
+  "strategies": [
+    {
+      "SentimentClass": "Extreme Fear",
+      "BestDirection": "Close Short",
+      "BestCoin": "ETH",
+      "BestSizeCategory": "Very Large (>$10K)",
+      "TradeCount": 29,
+      "AvgPnL": 7715.196552,
+      "TotalPnL": 223740.7,
+      "WinRate": 100.0
+    },
+    {
+      "SentimentClass": "Extreme Greed",
+      "BestDirection": "Sell",
+      "BestCoin": "@107",
+      "BestSizeCategory": "Very Large (>$10K)",
+      "TradeCount": 163,
+      "AvgPnL": 5956.523865,
+      "TotalPnL": 970913.39,
+      "WinRate": 94.48
+    },
+    {
+      "SentimentClass": "Fear",
+      "BestDirection": "Close Short",
+      "BestCoin": "ETH",
+      "BestSizeCategory": "Very Large (>$10K)",
+      "TradeCount": 143,
+      "AvgPnL": 5202.122797,
+      "TotalPnL": 743903.56,
+      "WinRate": 97.9
+    },
+    {
+      "SentimentClass": "Greed",
+      "BestDirection": "Close Short",
+      "BestCoin": "SOL",
+      "BestSizeCategory": "Very Large (>$10K)",
+      "TradeCount": 67,
+      "AvgPnL": 5266.147164,
+      "TotalPnL": 352831.86,
+      "WinRate": 76.12
+    },
+    {
+      "SentimentClass": "Neutral",
+      "BestDirection": "Close Short",
+      "BestCoin": "SOL",
+      "BestSizeCategory": "Very Large (>$10K)",
+      "TradeCount": 20,
+      "AvgPnL": 2280.012,
+      "TotalPnL": 45600.24,
+      "WinRate": 100.0
+    }
+  ]
+}
